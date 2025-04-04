@@ -73,6 +73,7 @@ section{
 
 .btlivre{
     width: 20px;
+    height: 20px;
     background-color: rgb(255, 255, 0);
     margin-left: 2px;
 }
@@ -81,10 +82,12 @@ section{
     width: 20px;
     background-color: red;
     margin-left: 2px;
+    height: 20px;
 }
 
 .btre{
     width: 20px;
+    height: 20px;
     background-color: #8a2be2;
     margin-left: 2px;
 }
