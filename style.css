@@ -1,0 +1,90 @@
+body > h1{
+    text-align: left;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    background-color: aqua;
+    width: 87%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 2px;
+    border-radius: 5px;
+    
+}
+
+section{
+    margin-left: 10px;
+}
+
+.btn {
+    width: 40px;
+    height: 30px;
+    margin: 2px;
+    cursor: pointer;
+    background: rgb(255, 255, 0);
+}
+
+.btn:hover {
+    transform: translate(3px, -3px);
+}
+
+.tela {
+    background-color: #00ffb3;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+#confirmar {
+    display: block;
+    margin: auto;
+    background-color: #00ffb3;
+    border: solid 2px;
+    height: 35px;
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.msg{
+    background-color: aqua;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 65%;
+}
+
+.info {
+    display: flex;
+    margin: 20px;
+}
+
+.info > p {
+    margin-left: 10px;
+}
+
+.btlivre{
+    width: 20px;
+    background-color: rgb(255, 255, 0);
+    margin-left: 2px;
+}
+
+.btma{
+    width: 20px;
+    background-color: red;
+    margin-left: 2px;
+}
+
+.btre{
+    width: 20px;
+    background-color: #8a2be2;
+    margin-left: 2px;
+}

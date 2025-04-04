@@ -1,0 +1,28 @@
+@media screen and (min-width: 721px){
+    h1{
+        font-size: 40px;
+        display: block;
+        margin: 10px;   
+        width: 200px;
+        height: 60px;
+        color: rgb(0, 0, 0);
+        padding: 5px;
+        text-align: center;
+    }
+
+    main {
+        width: 25%;
+    }
+
+    .msg{
+        width: 25%;
+        padding: 10px;
+    }
+
+    .tela {
+        background-color: #00ffb3;
+        width: 30%;
+        margin: auto;
+        text-align: center;
+    }
+}

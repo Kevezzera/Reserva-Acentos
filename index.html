@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.pc.css">
+    <link rel="stylesheet" href="style.tablet.css">
+</head>
+<body>
+    <h1><strong>- Cinema -</strong></h1>
+    <div class="tela"><h2>Tela</h2></div>
+    <main>
+        <section>
+            <button onclick="reservar(btn1)"  id="btn1"  class="btn">a01</button>
+            <button onclick="reservar(btn2)"  id="btn2"  class="btn">a02</button>
+            <button onclick="reservar(btn3)"  id="btn3"  class="btn">a03</button>
+            <button onclick="reservar(btn4)"  id="btn4"  class="btn">b01</button>
+            <button onclick="reservar(btn5)"  id="btn5"  class="btn">b02</button>
+            <button onclick="reservar(btn6)"  id="btn6"  class="btn">b03</button>
+            <button onclick="reservar(btn7)"  id="btn7"  class="btn">c01</button>
+            <button onclick="reservar(btn8)"  id="btn8"  class="btn">c02</button>
+            <button onclick="reservar(btn9)"  id="btn9"  class="btn">c03</button>
+            <button onclick="reservar(btn10)" id="btn10" class="btn">d01</button>
+            <button onclick="reservar(btn11)" id="btn11" class="btn">d02</button>
+            <button onclick="reservar(btn12)" id="btn12" class="btn">d03</button>
+            <button onclick="reservar(btn13)" id="btn13" class="btn">e01</button>
+            <button onclick="reservar(btn14)" id="btn14" class="btn">e02</button>
+            <button onclick="reservar(btn15)" id="btn15" class="btn">e03</button>
+            <button onclick="reservar(btn16)" id="btn16" class="btn">f01</button>
+            <button onclick="reservar(btn17)" id="btn17" class="btn">f02</button>
+            <button onclick="reservar(btn18)" id="btn18" class="btn">f03</button>
+            <button onclick="reservar(btn19)" id="btn19" class="btn">g01</button>
+            <button onclick="reservar(btn20)" id="btn20" class="btn">g02</button>
+            <button onclick="reservar(btn21)" id="btn21" class="btn">g03</button>
+            <button onclick="reservar(btn22)" id="btn22" class="btn">h01</button>
+            <button onclick="reservar(btn23)" id="btn23" class="btn">h02</button>
+            <button onclick="reservar(btn24)" id="btn24" class="btn">h03</button>
+            <button onclick="reservar(btn25)" id="btn25" class="btn">i01</button>
+            <button onclick="reservar(btn26)" id="btn26" class="btn">i02</button>
+            <button onclick="reservar(btn27)" id="btn27" class="btn">i03</button>
+            <button onclick="reservar(btn28)" id="btn28" class="btn">j01</button>
+            <button onclick="reservar(btn29)" id="btn29" class="btn">j02</button>
+            <button onclick="reservar(btn30)" id="btn30" class="btn">j03</button>       
+        </section>
+        <br>
+        <section>
+            <button onclick="reservar(btn31)" id="btn31" class="btn">a04</button>
+            <button onclick="reservar(btn32)" id="btn32" class="btn">a05</button>
+            <button onclick="reservar(btn33)" id="btn33" class="btn">a06</button>
+            <button onclick="reservar(btn34)" id="btn34" class="btn">b04</button>
+            <button onclick="reservar(btn35)" id="btn35" class="btn">b05</button>
+            <button onclick="reservar(btn36)" id="btn36" class="btn">b06</button>
+            <button onclick="reservar(btn37)" id="btn37" class="btn">c04</button>
+            <button onclick="reservar(btn38)" id="btn38" class="btn">c05</button>
+            <button onclick="reservar(btn39)" id="btn39" class="btn">c06</button>
+            <button onclick="reservar(btn40)" id="btn40" class="btn">d04</button>
+            <button onclick="reservar(btn41)" id="btn41" class="btn">d05</button>
+            <button onclick="reservar(btn42)" id="btn42" class="btn">d06</button>
+            <button onclick="reservar(btn43)" id="btn43" class="btn">e04</button>
+            <button onclick="reservar(btn44)" id="btn44" class="btn">e05</button>
+            <button onclick="reservar(btn45)" id="btn45" class="btn">e06</button>
+            <button onclick="reservar(btn46)" id="btn46" class="btn">f04</button>
+            <button onclick="reservar(btn47)" id="btn47" class="btn">f05</button>
+            <button onclick="reservar(btn48)" id="btn48" class="btn">f06</button>
+            <button onclick="reservar(btn49)" id="btn49" class="btn">g04</button>
+            <button onclick="reservar(btn50)" id="btn50" class="btn">g05</button>
+            <button onclick="reservar(btn51)" id="btn51" class="btn">g06</button>
+            <button onclick="reservar(btn52)" id="btn52" class="btn">h04</button>
+            <button onclick="reservar(btn53)" id="btn53" class="btn">h05</button>
+            <button onclick="reservar(btn54)" id="btn54" class="btn">h06</button>
+            <button onclick="reservar(btn55)" id="btn55" class="btn">i04</button>
+            <button onclick="reservar(btn56)" id="btn56" class="btn">i05</button>
+            <button onclick="reservar(btn57)" id="btn57" class="btn">i06</button>
+            <button onclick="reservar(btn58)" id="btn58" class="btn">j04</button>
+            <button onclick="reservar(btn59)" id="btn59" class="btn">j05</button>
+            <button onclick="reservar(btn60)" id="btn60" class="btn">j06</button>
+        </section>
+        </section>
+    </main>
+    
+    <section class="confirma">
+        <button id="confirmar" onclick="confirmar()">Confirmar</button>
+    </section>
+    
+    <section class="msg">
+        <p id="msg2">Comprovante</p>
+    </section>
+
+    <section class="info">
+        <p>Livre</p><button class="btlivre"></button>
+        <p>Marcado</p><button class="btma"></button>
+        <p>Reservado</p><button class="btre"></button>
+    </section>
+
+</body>
+<script src="script.js"></script>
+</html>
